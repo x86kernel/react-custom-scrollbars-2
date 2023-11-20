@@ -75,6 +75,7 @@ export default class Scrollbars extends Component {
         this.addListeners();
         this.update();
         this.componentDidMountUniversal();
+        this.hideTracks();
     }
 
     componentDidMountUniversal() { // eslint-disable-line react/sort-comp
